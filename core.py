@@ -49,8 +49,8 @@ def index(page=1, weight=20):
         obj['recipe'] = food.recipe
         result.append(obj)
 
-    return jsonify({"result": result}
-    return render_template("", )
+    return jsonify({"result": result})
+    #return render_template("", )  how we do it with templates
 
 
 @app.route("/main_course/random/")
